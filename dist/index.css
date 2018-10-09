@@ -1,0 +1,33 @@
+body {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+#hahaha {
+    position: absolute;
+    padding: 5px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    color: #6D6D6D;
+    user-select: none;
+}
+.myAnimation {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    background-color: #f5a631;
+    border-radius: 100%;
+    z-index: 99;
+}
+.ghost {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    background-color: #f5a631;
+    border-radius: 100%;
+    z-index: 98;
+}
